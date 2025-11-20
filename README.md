@@ -46,7 +46,6 @@
 /home/ops/bin/rpm_update.sh
 
 実行権限を付与：
-
 chmod +x /home/ops/bin/rpm_update.sh
 ```
 

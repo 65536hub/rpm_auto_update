@@ -29,7 +29,7 @@
 ```
 
 ## 3. 必要環境
-・OS: RHEL / RockyLinux / AlmaLinux / CentOS Stream
+・OS: RHEL / RockyLinux / AlmaLinux / CentOS Stream 等
 
 ・root 権限（rpm / dnf / reboot のため）
 
@@ -37,7 +37,7 @@
 
 ・bash（/bin/bash）
 
-・dnf が使用できる環境
+・dnfとmailコマンドが使用できる環境
 
 
 ## 4. 設置場所

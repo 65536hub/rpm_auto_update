@@ -93,7 +93,8 @@ fi
 echo "INFO: RPM更新結果をメール送信します: $MAIL_RECIPIENT"
 mail -s "RPM更新結果 「$(hostname -f)」" "$MAIL_RECIPIENT" < "$RPM_DIFF_LIST"
 
-# 再起動
-echo "INFO: 30秒後にOSを再起動します。"
-sleep 30
-/usr/sbin/reboot || { echo "ERROR: OSの再起動に失敗しました。"; exit 1; }
+# 再起動(ポートフォリオ様にコメントアウト)
+#echo "INFO: 30秒後にOSを再起動します。"
+#sleep 30
+#/usr/sbin/reboot || { echo "ERROR: OSの再起動に失敗しました。"; exit 1; }
+

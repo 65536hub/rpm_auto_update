@@ -43,10 +43,10 @@
 ## 4. 設置場所
 ```
 例：
-/home/ops/bin/rpm_update.sh
-
-実行権限を付与：
+事前に実行権限を付与
 chmod +x /home/ops/bin/rpm_update.sh
+
+/home/ops/bin/rpm_update.sh
 ```
 
 ## 5. 設定項目
